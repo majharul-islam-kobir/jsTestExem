@@ -1,3 +1,4 @@
+// *Question1:* 
 let name = "John";
 let age = 25;
 
@@ -7,7 +8,7 @@ document.write(`My name is ${name} and <br>I am ${age} years old`);
 
 
 
-
+// *Question2:* 
 let num = 7;
 
 if (num % 2 === 0) {
@@ -17,12 +18,17 @@ if (num % 2 === 0) {
 }
 
 
+
+// *Question3:* 
 for (let i = 1 ; i <= 5 ; i++ ){
     console.log(i);
     
 }
 
 
+
+
+// *Question4:* 
 function myNumbers(num1, num2) {
     return num1 + num2; 
   }
@@ -32,6 +38,7 @@ function myNumbers(num1, num2) {
 console.log(result);
 
 
+// *Question5:* 
 let fruits = ["apple" , "banana" , "cherry"];
 
 fruits.push("orange");
@@ -40,7 +47,7 @@ console.log("The first fruit is:", fruits[0]);
 console.log("The first fruit is:", fruits.length);
 
 
-
+// *Question6:* 
 let numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach(function (number) {
@@ -50,7 +57,7 @@ numbers.forEach(function (number) {
 
 
 
-
+// *Question7:* 
 const button = document.getElementById("changeText");
 const heading = document.getElementById("heading");
 
@@ -61,13 +68,13 @@ button.addEventListener("click", function () {
 
 
 
-
+// *Question8:* 
 let word = "hello world";
 
 console.log(word.toUpperCase());
 
 
-
+// *Question9:* 
 let person = {
     name: "Alice",
     age: 30,
